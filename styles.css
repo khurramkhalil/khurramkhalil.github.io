@@ -1,0 +1,297 @@
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a,
+li,
+span {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+}
+
+h1,
+.name {
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3,
+.papertitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.page-table {
+  width: 100%;
+  max-width: 800px;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-copy {
+  padding: 2.5%;
+  width: 63%;
+  vertical-align: middle;
+}
+
+.intro-photo {
+  padding: 2.5%;
+  width: 37%;
+  max-width: 37%;
+}
+
+.intro-photo img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.link-row {
+  text-align: center;
+}
+
+.nav-row {
+  padding-top: 6px;
+  text-align: center;
+}
+
+.contact-row,
+.primary-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+}
+
+.contact-row {
+  margin: 14px 0 8px;
+}
+
+.primary-nav {
+  margin: 0;
+}
+
+.contact-row a,
+.primary-nav a {
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: #fff;
+  line-height: 1;
+}
+
+.contact-row a {
+  padding: 5px 9px;
+}
+
+.primary-nav a {
+  padding: 6px 10px;
+}
+
+.primary-nav a.active,
+.contact-row a:hover,
+.primary-nav a:hover {
+  border-color: #1772d0;
+  background: #f7fbff;
+}
+
+.thesis {
+  padding: 10px 12px;
+  background: #ffffd0;
+  border-radius: 6px;
+}
+
+.section-cell {
+  padding: 16px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.half-cell {
+  padding: 16px;
+  width: 50%;
+  vertical-align: top;
+}
+
+.half-cell h2 {
+  margin-bottom: 12px;
+}
+
+.item-row td {
+  padding: 16px;
+  vertical-align: middle;
+}
+
+.full-item-row td {
+  padding: 10px 16px 14px 16px;
+  vertical-align: top;
+}
+
+.full-item-row p {
+  margin-bottom: 5px;
+}
+
+.entry-meta {
+  color: #666;
+  font-style: italic;
+}
+
+.thumb-cell {
+  width: 25%;
+}
+
+.text-cell {
+  width: 75%;
+}
+
+.thumb {
+  width: 160px;
+  height: 110px;
+  display: grid;
+  place-items: center;
+  background: #f1f5f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  color: #555;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.thumb.green {
+  background: linear-gradient(135deg, #ecfdf5, #dbeafe);
+}
+
+.thumb.orange {
+  background: linear-gradient(135deg, #fff7ed, #fef3c7);
+}
+
+.thumb.blue {
+  background: linear-gradient(135deg, #eff6ff, #e0e7ff);
+}
+
+.thumb.gray {
+  background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+}
+
+.highlight {
+  background-color: #ffffd0;
+}
+
+.muted {
+  color: #666;
+}
+
+.year {
+  color: #666;
+  font-style: italic;
+}
+
+.footer {
+  padding: 16px;
+  color: #777;
+  text-align: right;
+}
+
+.compact-list {
+  margin-top: 6px;
+}
+
+.compact-list p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  .intro-copy,
+  .intro-photo,
+  .thumb-cell,
+  .text-cell {
+    display: block;
+    width: auto;
+    max-width: none;
+  }
+
+  .intro-photo img {
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  .item-row td {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .half-cell {
+    display: block;
+    width: auto;
+  }
+
+  .thumb {
+    width: 100%;
+    height: 100px;
+  }
+}
