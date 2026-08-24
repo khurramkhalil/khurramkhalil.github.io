@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://khurramkhalil.github.io/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://khurramkhalil.github.io/assets/khurram-khalil.webp</image:loc>
       <image:title>Khurram Khalil</image:title>
@@ -42,7 +42,11 @@
   </url>
   <url>
     <loc>https://khurramkhalil.github.io/blog/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://khurramkhalil.github.io/blog/what-bit-flip-attacks-reveal-about-multimodal-llms.html</loc>
+    <lastmod>2026-08-23</lastmod>
   </url>
   <url>
     <loc>https://khurramkhalil.github.io/cv.html</loc>
